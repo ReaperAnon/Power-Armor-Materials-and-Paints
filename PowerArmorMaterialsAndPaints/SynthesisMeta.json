@@ -1,0 +1,11 @@
+{
+  "Nickname": "PowerArmorMaterialsAndPaints",
+  "Visibility": "Visible",
+  "OneLineDescription": "Separates the paints and materials for power armors so they can be used together.",
+  "LongDescription": "Separates the paints and materials for power armors so they can be used together without needing patches for power armor mods and without changing what the original paints and materials do.\r\n\r\nBy default the patcher has support for the following mods (most don't need explicit support):\r\n- Hellfire X-03 Power Armor by unoctium\r\n\r\nMost power armors don't need anything to be changed and work out of the box, but some mod authors don't follow convention and make their own attachment points. If a power armor doesn't have the paints and materials separated, then you can open up xEdit and check the Attach Point keyword on the paints for it (located under the Object Modifications tab) and add the keyword to the list in the patcher's settings.\r\nRead the tooltips for detailed information on the options.",
+  "PreferredAutoVersioning": "Default",
+  "RequiredMods": [],
+  "TargetedReleases": [
+    "Fallout4"
+  ]
+}
